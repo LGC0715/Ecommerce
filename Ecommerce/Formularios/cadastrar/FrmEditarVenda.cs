@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Ecommerce.Formularios.cadastrar
 {
-    public partial class FrmCadastrarProdutos : Form
+    public partial class FrmEditarVenda : Form
     {
-        public FrmCadastrarProdutos()
+        public FrmEditarVenda()
         {
             InitializeComponent();
-        }
-
-        private void FrmCadastrarProdutos_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model.Entitidades
+namespace Ecommerce.Entidade
 {
-    public class UsuariosEntidade
+    public class Produto
     {
         public int Id { get; set; }
-        public string Login { get; set; }
-        public string Senha { get; set; }
         public string Nome { get; set; }
-        public bool Ativo { get; set; }
+        public string Descricao { get; set; }
+        public float Preco { get; set; }
+        public int Estoque { get; set; }
+
     }
 }
