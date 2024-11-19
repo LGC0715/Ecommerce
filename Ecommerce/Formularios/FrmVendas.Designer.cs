@@ -29,67 +29,69 @@ namespace Ecommerce.Formularios
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnadd_disc = new System.Windows.Forms.Button();
+            this.btnadd_venda = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtpesquisa = new System.Windows.Forms.TextBox();
-            this.dtGridDisciplina = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dtGridDisciplina)).BeginInit();
+            this.dtGridVenda = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridVenda)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnadd_disc
+            // btnadd_venda
             // 
-            this.btnadd_disc.Location = new System.Drawing.Point(15, 25);
-            this.btnadd_disc.Name = "btnadd_disc";
-            this.btnadd_disc.Size = new System.Drawing.Size(168, 23);
-            this.btnadd_disc.TabIndex = 19;
-            this.btnadd_disc.Text = "Cadastrar Venda";
-            this.btnadd_disc.UseVisualStyleBackColor = true;
+            this.btnadd_venda.Location = new System.Drawing.Point(20, 31);
+            this.btnadd_venda.Margin = new System.Windows.Forms.Padding(4);
+            this.btnadd_venda.Name = "btnadd_venda";
+            this.btnadd_venda.Size = new System.Drawing.Size(224, 28);
+            this.btnadd_venda.TabIndex = 19;
+            this.btnadd_venda.Text = "Cadastrar Venda";
+            this.btnadd_venda.UseVisualStyleBackColor = true;
+            this.btnadd_venda.Click += new System.EventHandler(this.btnadd_venda_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(473, -13);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(631, -16);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 18;
             this.label4.Text = "Pesquisar";
             // 
             // txtpesquisa
             // 
-            this.txtpesquisa.Location = new System.Drawing.Point(475, 13);
-            this.txtpesquisa.Margin = new System.Windows.Forms.Padding(2);
+            this.txtpesquisa.Location = new System.Drawing.Point(633, 16);
+            this.txtpesquisa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtpesquisa.Name = "txtpesquisa";
-            this.txtpesquisa.Size = new System.Drawing.Size(297, 20);
+            this.txtpesquisa.Size = new System.Drawing.Size(395, 22);
             this.txtpesquisa.TabIndex = 17;
             // 
-            // dtGridDisciplina
+            // dtGridVenda
             // 
-            this.dtGridDisciplina.AllowUserToAddRows = false;
-            this.dtGridDisciplina.AllowUserToDeleteRows = false;
-            this.dtGridDisciplina.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtGridDisciplina.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dtGridDisciplina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtGridDisciplina.Location = new System.Drawing.Point(15, 64);
-            this.dtGridDisciplina.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.dtGridDisciplina.Name = "dtGridDisciplina";
-            this.dtGridDisciplina.ReadOnly = true;
-            this.dtGridDisciplina.RowHeadersWidth = 51;
-            this.dtGridDisciplina.Size = new System.Drawing.Size(770, 400);
-            this.dtGridDisciplina.TabIndex = 16;
+            this.dtGridVenda.AllowUserToAddRows = false;
+            this.dtGridVenda.AllowUserToDeleteRows = false;
+            this.dtGridVenda.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtGridVenda.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dtGridVenda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGridVenda.Location = new System.Drawing.Point(20, 79);
+            this.dtGridVenda.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.dtGridVenda.Name = "dtGridVenda";
+            this.dtGridVenda.ReadOnly = true;
+            this.dtGridVenda.RowHeadersWidth = 51;
+            this.dtGridVenda.Size = new System.Drawing.Size(1027, 492);
+            this.dtGridVenda.TabIndex = 16;
             // 
             // FrmVendas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 484);
-            this.Controls.Add(this.btnadd_disc);
+            this.ClientSize = new System.Drawing.Size(1067, 596);
+            this.Controls.Add(this.btnadd_venda);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtpesquisa);
-            this.Controls.Add(this.dtGridDisciplina);
+            this.Controls.Add(this.dtGridVenda);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmVendas";
             this.Text = "FormVendas";
-            ((System.ComponentModel.ISupportInitialize)(this.dtGridDisciplina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridVenda)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,9 +99,9 @@ namespace Ecommerce.Formularios
 
         #endregion
 
-        private System.Windows.Forms.Button btnadd_disc;
+        private System.Windows.Forms.Button btnadd_venda;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtpesquisa;
-        private System.Windows.Forms.DataGridView dtGridDisciplina;
+        private System.Windows.Forms.DataGridView dtGridVenda;
     }
 }

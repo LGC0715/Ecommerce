@@ -1,7 +1,7 @@
 ﻿
 namespace Ecommerce.Formularios.cadastrar
 {
-    partial class FrmEditarVenda
+    partial class FrmCadastrarVendas
     {
         /// <summary>
         /// Required designer variable.
