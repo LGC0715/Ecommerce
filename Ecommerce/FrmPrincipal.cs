@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ecommerce.Formularios.cadastrar
+namespace Ecommerce
 {
-    public partial class FrmCadastrarProdutos : Form
+    public partial class FrmPrincipal : Form
     {
-        public FrmCadastrarProdutos()
+        public FrmPrincipal()
         {
             InitializeComponent();
-        }
-
-        private void FrmCadastrarProdutos_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
