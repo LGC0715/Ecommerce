@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Login.cs" />
-    <Compile Include="Classes\teste.cs" />
     <Compile Include="Classes\Usuario.cs" />
     <Compile Include="Entidade\UsuarioEntidade.cs" />
     <Compile Include="Entidade\VendasEntidade.cs" />
