@@ -52,12 +52,6 @@
     <Compile Include="Entidade\VendasEntidade.cs" />
     <Compile Include="Entidade\ProdutosEntidade.cs" />
     <Compile Include="Entidade\VendasProdutosEntidade.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\cadastrar\FrmCadastrarProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +70,23 @@
     <Compile Include="Formularios\editar\FrmEditarVendas.Designer.cs">
       <DependentUpon>FrmEditarVendas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\FrmProdutos.Designer.cs">
       <DependentUpon>FrmProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmUsuario.Designer.cs">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FrmVendas.cs">
       <SubType>Form</SubType>
@@ -96,9 +102,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
