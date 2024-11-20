@@ -37,8 +37,6 @@ namespace Ecommerce
             this.horáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cursosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.diasDaSemanaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cursoXDisciplinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -75,9 +73,7 @@ namespace Ecommerce
             this.disciplinasToolStripMenuItem,
             this.horáriosToolStripMenuItem,
             this.cursosToolStripMenuItem,
-            this.diasDaSemanaToolStripMenuItem,
-            this.cursoXDisciplinaToolStripMenuItem,
-            this.usuariosToolStripMenuItem});
+            this.diasDaSemanaToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(71, 20);
             this.toolStripMenuItem1.Text = "Cadastros";
@@ -85,50 +81,38 @@ namespace Ecommerce
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
-            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.cadastrosToolStripMenuItem.Text = "Salas";
+            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastrosToolStripMenuItem.Text = "Produtos";
             // 
             // relatoriosToolStripMenuItem
             // 
             this.relatoriosToolStripMenuItem.Name = "relatoriosToolStripMenuItem";
-            this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.relatoriosToolStripMenuItem.Text = "Professores";
+            this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.relatoriosToolStripMenuItem.Text = "Vendas";
             // 
             // disciplinasToolStripMenuItem
             // 
             this.disciplinasToolStripMenuItem.Name = "disciplinasToolStripMenuItem";
-            this.disciplinasToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.disciplinasToolStripMenuItem.Text = "Disciplinas";
+            this.disciplinasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.disciplinasToolStripMenuItem.Text = "Cadastrar Produtos";
             // 
             // horáriosToolStripMenuItem
             // 
             this.horáriosToolStripMenuItem.Name = "horáriosToolStripMenuItem";
-            this.horáriosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.horáriosToolStripMenuItem.Text = "Horários";
+            this.horáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.horáriosToolStripMenuItem.Text = "Editar Produtos";
             // 
             // cursosToolStripMenuItem
             // 
             this.cursosToolStripMenuItem.Name = "cursosToolStripMenuItem";
-            this.cursosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.cursosToolStripMenuItem.Text = "Cursos";
+            this.cursosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cursosToolStripMenuItem.Text = "Editar Vendas";
             // 
             // diasDaSemanaToolStripMenuItem
             // 
             this.diasDaSemanaToolStripMenuItem.Name = "diasDaSemanaToolStripMenuItem";
-            this.diasDaSemanaToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.diasDaSemanaToolStripMenuItem.Text = "Dias da Semana";
-            // 
-            // cursoXDisciplinaToolStripMenuItem
-            // 
-            this.cursoXDisciplinaToolStripMenuItem.Name = "cursoXDisciplinaToolStripMenuItem";
-            this.cursoXDisciplinaToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.cursoXDisciplinaToolStripMenuItem.Text = "Curso X Disciplina";
-            // 
-            // usuariosToolStripMenuItem
-            // 
-            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.usuariosToolStripMenuItem.Text = "Usuários";
+            this.diasDaSemanaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.diasDaSemanaToolStripMenuItem.Text = "Vendas X Produtos";
             // 
             // sairToolStripMenuItem
             // 
@@ -203,8 +187,8 @@ namespace Ecommerce
             // todosProfessoresToolStripMenuItem
             // 
             this.todosProfessoresToolStripMenuItem.Name = "todosProfessoresToolStripMenuItem";
-            this.todosProfessoresToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.todosProfessoresToolStripMenuItem.Text = "Todos Professores";
+            this.todosProfessoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.todosProfessoresToolStripMenuItem.Text = "Todos Produtos";
             // 
             // Principal
             // 
@@ -234,8 +218,6 @@ namespace Ecommerce
         private System.Windows.Forms.ToolStripMenuItem horáriosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cursosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diasDaSemanaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cursoXDisciplinaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arquivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salvarToolStripMenuItem;
