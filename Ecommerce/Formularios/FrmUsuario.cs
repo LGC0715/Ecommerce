@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ecommerce.Formularios
 {
-    public partial class FrmUsuario : Form
+    public partial class FrmLogin : Form
     {
-        public FrmUsuario()
+        public FrmLogin()
         {
             InitializeComponent();
         }

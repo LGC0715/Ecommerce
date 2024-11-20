@@ -125,6 +125,9 @@
     <EmbeddedResource Include="Formularios\FrmProdutos.resx">
       <DependentUpon>FrmProdutos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmUsuario.resx">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmVendas.resx">
       <DependentUpon>FrmVendas.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tendencias-ecommerce-BR-Capterra-Header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

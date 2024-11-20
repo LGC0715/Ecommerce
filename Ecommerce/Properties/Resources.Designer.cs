@@ -63,6 +63,16 @@ namespace Ecommerce.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LOGIN {
+            get {
+                object obj = ResourceManager.GetObject("LOGIN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tendencias_ecommerce_BR_Capterra_Header {
             get {
                 object obj = ResourceManager.GetObject("tendencias-ecommerce-BR-Capterra-Header", resourceCulture);
