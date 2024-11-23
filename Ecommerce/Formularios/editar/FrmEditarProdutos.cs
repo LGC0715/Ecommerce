@@ -16,10 +16,5 @@ namespace Ecommerce.Formularios.editar
         {
             InitializeComponent();
         }
-
-        private void FrmEditarProdutos_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

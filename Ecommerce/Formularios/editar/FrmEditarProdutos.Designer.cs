@@ -29,18 +29,10 @@ namespace Ecommerce.Formularios.editar
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FrmEditarProdutos
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "FrmEditarProdutos";
-            this.Text = "Editar Produtos";
-            this.Load += new System.EventHandler(this.FrmEditarProdutos_Load);
-            this.ResumeLayout(false);
-
+            this.Text = "FrmEditarProdutos";
         }
 
         #endregion
